@@ -1,0 +1,97 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color:#4747c3;
+    color: white;
+    padding: 1.8em 10px 10px 10px;
+}
+
+header h1,
+header h2 {
+    margin: 0;
+}
+
+nav.lista-indice {
+    background-color: grey;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+ul.indice {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.indice a {
+    text-decoration: none;
+    font-weight: 900;
+}
+
+ul.indice a:visited {
+    color: cyan;
+}
+
+ul.indice a:active {
+    color:chocolate;
+}
+
+h2.titulo_indice:hover {
+    background-color: yellow;
+}
+
+h2.titulo_indice {
+    margin: 0;
+    font-size: 12px;
+    background: green;
+    padding: 7px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: 1px dotted black;
+    text-transform: uppercase;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+table td, table th {
+    border: 1px solid black;
+    padding: .8em 0;
+}
+
+main {
+    margin: 0 15px;
+}
+
+#logo {
+    width: 20em;
+    float: left;
+}
+
+img.imagem-curso {
+    width: 200px;
+}
+
+.centralizado {
+    text-align: justify;
+}
+
+@media screen and (max-width: 550px)  {
+    
+    img.imagem-curso {
+        width: 100%;
+        border: 15px inset red;
+    }
+}
